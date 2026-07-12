@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     "rest_framework_simplejwt.token_blacklist",
     "corsheaders",
     'users',
+    'menu',
+    'cart',
+    'order',
 ]
 
 MIDDLEWARE = [
@@ -146,5 +149,5 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173", # Include this to cover both localhost variants
 ]
-
+APPEND_SLASH = False
 CORS_PREFLIGHT_MAX_AGE = 600
