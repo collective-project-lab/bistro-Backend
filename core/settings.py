@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-6!d80rn^z(9#y!!$@^h0jdy9ud2dakh_j_%go&q01&a!)ausbk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    bistro-cart-env.eba-m3cb7baa.us-east-1.elasticbeanstalk.com
+]
 
 
 # Application definition
