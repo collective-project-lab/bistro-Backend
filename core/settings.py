@@ -27,7 +27,9 @@ SECRET_KEY = os.getenv("SECRET_KEY", "your-default-secret-key")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    bistro-cart-env.eba-m3cb7baa.us-east-1.elasticbeanstalk.com
+]
 
 
 # Application definition
